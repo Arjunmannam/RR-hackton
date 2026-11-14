@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: superrr-selector-s2-r1-dashboard
+    runtime: static
+    buildCommand: echo "Static dashboard: no build required"
+    staticPublishPath: .
+    autoDeployTrigger: commit
